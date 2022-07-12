@@ -1,0 +1,25 @@
+.Circle{
+    border: 1px solid #8B8B8B;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    border: 1px solid #8B8B8B;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+
+    
+
+
+ 
+
+    
+
+    
+}

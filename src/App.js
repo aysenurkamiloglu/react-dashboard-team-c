@@ -1,6 +1,14 @@
+import CardBottom from "./Components/Card-Bottom/CardBottom";
+
+import "./App.css"
 const App = () => {
   return (
-    <h1>React Dashboard</h1>
+    <div className="App">
+      
+      <CardBottom />
+      
+    </div>
+   
   );
 }
 
