@@ -1,6 +1,13 @@
+import Subheader from './components/newButton';
+import Rectangleheader from './components/rectangleHeader';
+
 const App = () => {
   return (
-    <h1>React Dashboard</h1>
+    <div>
+      <Subheader></Subheader>
+      <Rectangleheader></Rectangleheader>
+    </div>
+    
   );
 }
 
