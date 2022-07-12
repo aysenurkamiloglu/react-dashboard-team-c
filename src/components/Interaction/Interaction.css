@@ -1,0 +1,25 @@
+
+
+.message-icon{
+  position: absolute;
+  right: 23.33%;
+  top: 3.33%;
+  width: 23.33px;
+  height: 23.33px;
+}
+
+.notification-icon{
+  position: absolute;
+  right: 20.33%;
+  top: 3.33%;
+  width: 23.33px;
+  height: 23.33px;
+}
+
+.settings-icon{
+  position: absolute;
+  right: 17.33%;
+  top: 3.33%;
+  width: 23.33px;
+  height: 23.33px;
+}
