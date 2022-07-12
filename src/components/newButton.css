@@ -1,0 +1,54 @@
+.addButton{
+    position: absolute;
+    width: 127px;
+    height: 52px;
+    left: 345px;
+    top: 108px;
+
+    width: 127px;
+    height: 52px;
+    border-radius: 26px;
+    border: none;
+
+    background-color: #00DB99;
+
+    box-sizing: border-box;
+    
+    margin-top: 52px;
+    
+}
+
+.addButton span.icon {
+    float: left;
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+    margin:10px;
+    width: 16px;
+    height: 16px;
+    color: #FFFFFF;
+}
+
+
+.newText{
+    position: absolute;
+    left: 46.46%;
+    right: 25.2%;
+    top: 28.85%;
+    bottom: 30.77%;
+    
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+    
