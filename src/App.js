@@ -1,6 +1,13 @@
-const App = () => {
+import Header from "./components/Header/Header"; 
+
+function App() {
+  
   return (
-    <h1>React Dashboard</h1>
+    <section>
+      <Header></Header>  
+    </section>   
+
+
   );
 }
 

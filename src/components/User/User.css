@@ -1,0 +1,29 @@
+
+.user-bar{
+  
+  width:150px;
+  
+  position: relative;
+
+  right: 5%;
+}
+.user-icon{
+  width:40px;
+  height:40px;
+  border-radius: 200%;
+}
+
+.user-name{
+  position: relative;
+  bottom:20px;
+  height: 23.33px;
+  font-size: 16px;
+}
+
+.user-mail{
+  position: relative;
+  bottom: 20px;
+  left: 45px;
+  font-size: 12px;
+  height: 23.33px;
+}
