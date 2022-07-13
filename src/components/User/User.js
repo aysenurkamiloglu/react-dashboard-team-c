@@ -5,7 +5,7 @@ import user_icon from './user_icon.jpg'
 import Wrapper from "../Wrapper/Wrapper"
 
 const UserBar = () => (
-  <div className="User-bar">
+  <div className="user-bar">
 
   <img class="user-icon" src={user_icon}/>
 

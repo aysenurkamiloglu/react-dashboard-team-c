@@ -13,8 +13,11 @@ const title = "Projects";
     return (
         <header className="header">
         <Wrapper>
+        <div className="header-title">
+        <span >{title}</span>
+        </div>
+
         <Search/>
-      <h1 className="header__title">{title}</h1>
         <Interaction/>
         <User/>
 

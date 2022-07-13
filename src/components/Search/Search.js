@@ -1,9 +1,11 @@
 import "./Search.css"
 
 const SearchBar = () => (
-    <form class="header-search">
-    <input class="header-search" type="search" placeholder="Search"/>
-    </form>
+    <div className="search-bar">
+        <form class="header-search">
+        <input class="header-search" type="search" placeholder="Search"/>
+        </form>
+    </div>
 );
 
 export default SearchBar;
