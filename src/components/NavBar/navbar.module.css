@@ -3,15 +3,14 @@ nav {
     flex-direction: column;
     width: 17%;
     border-right: 1px solid rgba(255, 255, 255, 1);
+    background-color: #ffffff;
 }
-
 
 .navlinks_wrapper {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     justify-content: center;
-
 }
 
 .logo {
@@ -25,9 +24,8 @@ nav {
     margin-bottom: 30px;
 }
 
-
 .logo::before {
-    content: '';
+    content: "";
     width: 20px;
     height: 20px;
     border: 4px solid rgba(0, 117, 255, 1);
@@ -37,7 +35,7 @@ nav {
 }
 
 .logo::after {
-    content: '';
+    content: "";
     width: 10px;
     height: 10px;
     border: 4px solid rgba(27, 227, 167, 1);
@@ -59,19 +57,8 @@ a {
     font-size: 16px;
     margin-left: 35px;
 }
-/* 
-a:active {
-    width: 90%;
-    color: red;
-    min-height: 7%;
-    background-color: #f9f9f9;
 
-} */
-
-
-
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
     .navlinks_wrapper>a {
         color: transparent;
         width: 50%;
@@ -83,5 +70,9 @@ a:active {
 
     .logo {
         color: transparent;
+    }
+
+    .hide {
+        display: none;
     }
 }
